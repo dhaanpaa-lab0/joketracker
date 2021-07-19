@@ -1,4 +1,4 @@
-## Random tool to keep track of things
+## Random tool to keep track of progamming jokes
 
 ## Configuration
 
@@ -39,3 +39,19 @@ When you are successfully connected, you can refer to the [MongoDB Node.js Drive
 - BOOTSTRAP 5
 - REACT.JS
 ```
+
+### Notes
+
+```
+Uses Server Side Rendering
+Click on 'list' to list jokes defined in system
+Click on 'Add New Joke' to add new joke to the system
+Click on 'Get Random Joke' to get random programming joke that has been defined
+```
+
+### Why I Built this?
+
+This is a programming joke that's why
+
+
+
