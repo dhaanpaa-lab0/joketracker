@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from "./components/Layout";
-import DataTable from "./components/DataTable";
-import DataTableHeader from "./components/DataTableHeader";
-import DataTableRow from "./components/DataTableRow";
+import Layout from "../components/Layout";
+import DataTable from "../components/DataTable";
+import DataTableHeader from "../components/DataTableHeader";
+import DataTableRow from "../components/DataTableRow";
 import Router from 'next/router';
-import DataTableBody from "./components/DataTableBody";
+import DataTableBody from "../components/DataTableBody";
 import Link from 'next/link'
 
 const deleteRow = async id => {

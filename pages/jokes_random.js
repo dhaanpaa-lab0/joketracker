@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from "./components/Layout";
+import Layout from "../components/Layout";
 import {connectToDatabase} from "../util/mongodb";
 
 // db.products.aggregate([{$sample: {size: 10}}]);

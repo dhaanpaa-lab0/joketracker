@@ -1,11 +1,8 @@
 import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
-import PageContainer from "./components/PageContainer";
-import SystemWindow from "./components/SystemWindow";
-import Layout from "./components/Layout";
-import Menu from "./components/Menu";
-import MenuItem from "./components/MenuItem";
-import MenuItemLink from "./components/MenuItemLink";
+import Layout from "../components/Layout";
+import Menu from "../components/Menu";
+import MenuItemLink from "../components/MenuItemLink";
 
 
 export default function Home({ isConnected }) {
