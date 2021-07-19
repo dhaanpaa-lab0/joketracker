@@ -54,4 +54,6 @@ Click on 'Get Random Joke' to get random programming joke that has been defined
 This is a programming joke that's why
 
 
+### Support?
 
+den-noc@djhent.us
