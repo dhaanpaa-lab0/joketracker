@@ -29,6 +29,9 @@ function Jokes({jokes}) {
                         <td>{item.joke}</td>
                         <td>
                             <button className="btn btn-sm btn-danger" onClick={() => deleteRow(item._id)}>Delete</button>
+                            <Link href={"/edit/" + item._id}>
+                                <a className="btn btn-danger">EDIT</a>
+                            </Link>
                         </td>
                     </DataTableRow>)}
                 </DataTableBody>
